@@ -1,5 +1,11 @@
 # EnvGWAS AI Assistant
 
+<p align="center">
+  <img src="docs/EnvGWAS_AI_Assistant.png" alt="EnvGWAS_AI_Assistant" width="500" />
+</p>
+
+
+
 A local Retrieval-Augmented Generation (RAG) assistant for Environmental Genome-Wide Association Studies (envGWAS), built with R Shiny, Ollama, Llama 3, and Nomic Embed Text.
 
 The application enables researchers to query their own envGWAS datasets, laboratory notes, reports, and scientific literature through a conversational interface.
