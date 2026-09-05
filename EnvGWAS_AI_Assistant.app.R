@@ -1,6 +1,7 @@
 ###############################################
-# Combined EnvGWAS AI Assistant (Tab 1)
-# + Corrected AI GWAS Plotting Agent (Tab 2)
+# EnvGWAS AI Assistant 
+# Knowledge Assistant (Tab 1)
+# AI GWAS Plotting Agent (Tab 2)
 ###############################################
 
 smart_load <- function(pkgs) {
@@ -33,6 +34,7 @@ options(shiny.maxRequestSize = 50 * 1024^2)
 embed_model <- "nomic-embed-text"
 chat_model  <- "llama3"
 
+# needs to be changed accordingly
 kb_folder      <- "Desktop/EnvGWAS_AI_Assistant_2026/EnvGWAS_AI_Assistant_Github/envgwas_kb"
 embedding_file <- "Desktop/EnvGWAS_AI_Assistant_2026/EnvGWAS_AI_Assistant_Github/embeddings.rds"
 
